@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Beyond Retro - Personal Shoppers</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./personal-shoppers.html">
+                        <h2 class="nav-links li1">
+                            PERSONAL SHOPPERS
+                        </h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h2 class="nav-links li2">
+                            HOW TO PROCEED
+                        </h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h2 class="nav-links li3">
+                            CUSTOMER EXPERIENCES
+                        </h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <h1>
+                            <img src="./img/logo-beyond-retro.png" class="logoImg" alt="">
+                        </h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="./about.html">
+                        <h2 class="nav-links li4">
+                            ABOUT US
+                        </h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h2 class="nav-links li3">
+                            CONCEPT 
+                        </h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <h2 class="nav-links li1">
+                            CONTACT
+                        </h2>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button class="log-btn" onclick="on()">login</button>
+    </header>
+    <main>
+        <section class="perso-shop">
+            <div class="ps_intro">
+                <h2 class="intro-title stroke">PERSONAL SHOPPERS</h2>
+                <hr>
+                <h3 class="subtitle-ps">What is the role of a Personal Shopper?</h3>
+            </div>
+            <div class="ps_body">
+                <img src="./img/Group 33.png" class="ps-img" alt="">
+                <div class="ps_content">
+                    <p class="paraText-ps">A personal shopper is someone wishing to help individuals to purchase clothes, either by accompanying them while shopping or by shopping on their behalf, according to their needs, tastes and wants.
+                    </p>
+                </div>
+            </div>
+            <button class="btn_ps">
+                <a href="./about.html#psteam">DISCOVER OUR PERSONAL SHOPPERS</a>
+                <hr class="div_btn">
+            </button>
+           </section>
+           <div id="overlay"  >
+            <div class="overlayCard">
+                <form action="login" class="loginForm" > 
+                    <btn class="quitForm" ><img class="quitsvg" src="./img/times-circle-regular.svg" alt="" onclick="off()"></btn>
+                    <h2 class="stroke" style="margin-bottom: 1rem; color:#F2CD00" >Create an account</h2>
+                    <input type="email" name="email" id="" placeholder="Email">
+                    <input type="password" name="password" id="" placeholder="Passw*rd">
+                    <input type="date" name="birthdate" id="" placeholder="Birth Date">
+                    <input type="text" name="" id="" placeholder="How did you hear from us ?">
+                    <input type="text" placeholder="Refferal code">
+                    <div class="sbmtBtn" type="submit" onclick="off()">Next</div>
+                    <p>You already have an account? <a class="relog"  href="">Connect here</a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
